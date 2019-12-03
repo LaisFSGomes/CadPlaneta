@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="282.0" prefWidth="354.0" styleClass="background1" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cadplaneta.FXMLWelcomeController">
+    <stylesheets>
+        <URL value="@estilo.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="bntEntrar" layoutX="79.0" layoutY="196.0" mnemonicParsing="false" onAction="#entrar" prefHeight="49.0" prefWidth="213.0" styleClass="button3" stylesheets="@estilo.css" text="Entrar" />
+      <Label layoutX="61.0" layoutY="43.0" prefHeight="58.0" prefWidth="267.0" text="bem vindo," textAlignment="CENTER">
+         <styleClass>
+            <String fx:value="label-bright" />
+            <String fx:value="label1" />
+         </styleClass>
+      </Label>
+      <Label layoutX="55.0" layoutY="101.0" prefHeight="58.0" prefWidth="279.0" text="mestre jedi">
+         <styleClass>
+            <String fx:value="label-bright" />
+            <String fx:value="label1" />
+         </styleClass>
+      </Label>
+      <Label layoutX="99.0" layoutY="254.0" prefHeight="16.0" prefWidth="193.0" styleClass="label-logo" stylesheets="@../../build/classes/cadplaneta/estilo.css" text="processo seletivo Loading" />
+   </children>
+</AnchorPane>

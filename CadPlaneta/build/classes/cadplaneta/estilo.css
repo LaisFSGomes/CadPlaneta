@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Star Jedi';
+    src: url('./fonts/Starjedi.tff');
+}
+.background1 {
+    /*-fx-background-color:#4B0082;*/
+    -fx-background-color: linear-gradient(#4B0082 20%, #9400D3 65%, #9932CC 100%);
+}
+.background2 {
+   -fx-background-color: linear-gradient(#4B0082 20%, #9400D3 65%, #9932CC 100%);
+}
+
+.label1 {
+    -fx-font-size: 11pt;
+    -fx-font-family: 'Star Jedi';
+    -fx-text-fill: white;
+    -fx-opacity: 1;    
+}
+.label-logo {
+    -fx-font-size: 8pt;
+    -fx-font-family: "Star Jedi";
+    -fx-text-fill: #FFFFFF;
+    -fx-opacity: 1;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: 'Star Jedi';
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Star Jedi";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+
+
+.text-field {
+    -fx-font-size: 7pt;
+    -fx-font-family: "Star Jedi", sans-serif;
+    
+}
+.label1 {
+    -fx-font-size: 30pt;
+    -fx-text-alignment: center;
+    -fx-font-family: "Star Jedi";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+
+.button1 {
+    -fx-padding: 5 16 5 16;   
+    -fx-border-color: #F8F8FF;
+    -fx-border-width: 3;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Star Jedi", Helvetica, Arial, sans-serif;
+    -fx-font-size: 7pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button2 {
+    -fx-padding: 5 16 5 16;   
+    -fx-border-color: #F8F8FF;
+    -fx-border-width: 3;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Star Jedi", Helvetica, Arial, sans-serif;
+    -fx-font-size: 7pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+.button3 {
+     -fx-padding: 5 16 5 16;   
+    -fx-border-color: #F8F8FF;
+    -fx-border-width: 3;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Star Jedi", Helvetica, Arial, sans-serif;
+    -fx-font-size: 7pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+   -fx-border-radius: 50;
+}
+
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+     -fx-border-radius: 50;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}

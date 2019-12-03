@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5555555555555556" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cadplaneta.FXMLcadplanetaController">
+  <items>
+    <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="540.0" prefWidth="420.0" styleClass="background1" stylesheets="@estilo.css">
+         <children>
+            <ImageView fitHeight="681.0" fitWidth="822.0" mouseTransparent="true" opacity="0.49" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../fontsimag/background.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="94.0" layoutY="37.0" prefHeight="39.0" prefWidth="248.0" styleClass="label-header" stylesheets="@estilo.css" text="Registro de Planetas" textAlignment="CENTER">
+               <font>
+                  <Font name="Dubai Light" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNome" layoutX="14.0" layoutY="72.0" prefHeight="10.0" prefWidth="396.0" promptText="Nome do Planeta" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="15.0" layoutY="113.0" styleClass="label-bright" stylesheets="@estilo.css" text="iNFoRMAÇÕES ASTRoGRÁFiCAS">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtRegiao" layoutX="14.0" layoutY="140.0" prefHeight="10.0" prefWidth="126.0" promptText="Região" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtGalaxia" layoutX="152.0" layoutY="140.0" prefHeight="10.0" prefWidth="126.0" promptText="Galáxia" styleClass="text-field" stylesheets="@estilo.css" />
+            <TextField fx:id="txtSetor" layoutX="284.0" layoutY="140.0" prefHeight="10.0" prefWidth="126.0" promptText="Setor" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtLuas" layoutX="13.0" layoutY="176.0" prefHeight="10.0" prefWidth="129.0" promptText="quantidade de Luas" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtOrbita" layoutX="150.0" layoutY="175.0" prefHeight="10.0" prefWidth="126.0" promptText="Estrela que Orbita" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtSistema" layoutX="285.0" layoutY="175.0" prefHeight="10.0" prefWidth="126.0" promptText="Sistema" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="17.0" layoutY="227.0" styleClass="label-bright" stylesheets="@estilo.css" text="iNFoRMAÇÕES FÍSiCAS">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtDiametro" layoutX="15.0" layoutY="254.0" prefHeight="10.0" prefWidth="129.0" promptText="Diâmetro (km)" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtTerreno" layoutX="146.0" layoutY="254.0" prefHeight="10.0" prefWidth="264.0" promptText="Tipo de Terreno" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtCor" layoutX="14.0" layoutY="291.0" prefHeight="24.0" prefWidth="195.0" promptText="Cor Predominante" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtDist" layoutX="218.0" layoutY="291.0" prefHeight="24.0" prefWidth="195.0" promptText="Distância da Terra (Anos-Luz)" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="16.0" layoutY="342.0" styleClass="label-bright" stylesheets="@estilo.css" text="iNFoRMAÇÕES DEMoGRÁFiCAS">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtPopulacao" layoutX="14.0" layoutY="368.0" prefHeight="10.0" prefWidth="195.0" promptText="População" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtForca" layoutX="214.0" layoutY="368.0" prefHeight="10.0" prefWidth="195.0" promptText="usuários da Força / Lado da Força" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtEspecies" layoutX="14.0" layoutY="401.0" prefHeight="10.0" prefWidth="396.0" promptText="Espécies que habitam" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtFiliacao" layoutX="14.0" layoutY="436.0" prefHeight="10.0" prefWidth="396.0" promptText="Filiação" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </TextField>
+            <TextArea fx:id="txtInformacoesAdd" layoutX="14.0" layoutY="470.0" prefHeight="91.0" prefWidth="396.0" promptText="informações Adicionais" styleClass="text-field" stylesheets="@estilo.css" />
+            <Button fx:id="btExcluir" layoutX="17.0" layoutY="586.0" mnemonicParsing="false" onAction="#clickExcluir" prefHeight="30.0" prefWidth="100.0" styleClass="button1" stylesheets="@estilo.css" text="Excluir">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btNovo" layoutX="165.0" layoutY="586.0" mnemonicParsing="false" onAction="#clickCadastrar" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: ;" styleClass="button1" text="Cadastrar">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btEditar" layoutX="313.0" layoutY="586.0" mnemonicParsing="false" onAction="#clickEditar" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: ;" styleClass="button1" text="Editar">
+               <font>
+                  <Font size="5.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="646.0" prefWidth="325.0" styleClass="background2" stylesheets="@estilo.css">
+         <children>
+            <ImageView fitHeight="681.0" fitWidth="822.0" mouseTransparent="true" opacity="0.49" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../fontsimag/background.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btAnterior" layoutX="9.0" layoutY="587.0" mnemonicParsing="false" onAction="#clickAnterior" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: ;" styleClass="button2" stylesheets="@estilo.css" text="Anterior">
+               <font>
+                  <Font size="5.0" />
+               </font>
+            </Button>
+            <Button fx:id="btProximo" layoutX="242.0" layoutY="587.0" mnemonicParsing="false" onAction="#clickProximo" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: ;" styleClass="button2" stylesheets="@estilo.css" text="Próximo">
+               <font>
+                  <Font size="5.0" />
+               </font>
+            </Button>
+            <Label layoutX="9.0" layoutY="22.0" styleClass="label-bright" stylesheets="@estilo.css" text="iNFoRMAÇÕES">
+               <font>
+                  <Font name="Agency FB Bold" size="33.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="txtSaida" editable="false" layoutX="9.0" layoutY="130.0" prefHeight="392.0" prefWidth="333.0" styleClass="text-field" stylesheets="@estilo.css">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font></TextArea>
+            <Label fx:id="lbControle" layoutX="110.0" layoutY="98.0" prefHeight="17.0" prefWidth="22.0" styleClass="label-bright" stylesheets="@estilo.css">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="134.0" layoutY="98.0" styleClass="label-bright" stylesheets="@estilo.css" text="Planetas Cadastrados">
+               <font>
+                  <Font name="EuroRoman" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="174.0" layoutY="624.0" styleClass="label-logo" stylesheets="@estilo.css" text="Processo Seletivo Loading">
+               <font>
+                  <Font name="Agency FB Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="126.0" layoutY="587.0" mnemonicParsing="false" onAction="#clickGerarPDF" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: ;" styleClass="button2" stylesheets="@estilo.css" text="Gerar PDF">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>
